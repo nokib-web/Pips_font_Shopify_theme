@@ -1,0 +1,115 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "blocks_bHMBX8": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_dcd8ded_M67pPK": {
+          "type": "ai_gen_block_dcd8ded",
+          "settings": {
+            "image": "shopify://shop_images/Meet_the_Residents.png",
+            "aspect_ratio": "1/1",
+            "desktop_width_percent": 50,
+            "border_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_dcd8ded_M67pPK"
+      ],
+      "name": "Image",
+      "settings": {}
+    },
+    "image_banner_MLCHnB": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Willowbrook_Map_with_Buttons_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-0e28b79c-4725-497a-9d9e-9959cda0daad",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "blocks_baKYrr": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_dcd8ded_JC7gQh": {
+          "type": "ai_gen_block_dcd8ded",
+          "settings": {
+            "image": "shopify://shop_images/Page_divider_2e11b221-e46a-4c14-abb6-3eba93d075df.png",
+            "aspect_ratio": "4/3",
+            "desktop_width_percent": 50,
+            "border_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_dcd8ded_JC7gQh"
+      ],
+      "settings": {}
+    },
+    "blocks_YqQaME": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_dcd8ded_TV9aDr": {
+          "type": "ai_gen_block_dcd8ded",
+          "settings": {
+            "image": "shopify://shop_images/Character_Introduction_Slide_2.png",
+            "aspect_ratio": "16/9",
+            "desktop_width_percent": 95,
+            "border_radius": 16
+          },
+          "blocks": {}
+        },
+        "ai_gen_block_dcd8ded_RhrEQQ": {
+          "type": "ai_gen_block_dcd8ded",
+          "settings": {
+            "image": "shopify://shop_images/Character_Introduction_Slide_3.png",
+            "aspect_ratio": "16/9",
+            "desktop_width_percent": 95,
+            "border_radius": 16
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_dcd8ded_TV9aDr",
+        "ai_gen_block_dcd8ded_RhrEQQ"
+      ],
+      "name": "Image",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "blocks_bHMBX8",
+    "image_banner_MLCHnB",
+    "blocks_baKYrr",
+    "blocks_YqQaME"
+  ]
+}

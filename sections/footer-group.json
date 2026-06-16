@@ -1,0 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_L4Jxpm": {
+          "type": "text",
+          "settings": {
+            "heading": "Copyright Notice",
+            "subtext": "<p><br/>© 2026 Pip's Post Club. All rights reserved. No artwork, illustrations, designs, written content, characters, logos, or branding may be copied, reproduced, distributed, modified, sold, or used commercially without prior written permission.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_L4Jxpm"
+      ],
+      "settings": {
+        "color_scheme": "scheme-0e28b79c-4725-497a-9d9e-9959cda0daad",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

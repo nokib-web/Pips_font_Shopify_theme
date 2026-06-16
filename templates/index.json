@@ -1,0 +1,235 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_11_2026_12_55_49_PM.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "right",
+        "show_text_below": false
+      }
+    },
+    "image_banner_6BtiLi": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_11_2026_01_00_34_PM.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "17811863848964bbbf": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_dcd8ded_hgePME": {
+          "type": "ai_gen_block_dcd8ded",
+          "settings": {
+            "image": "shopify://shop_images/Page_divider_2e11b221-e46a-4c14-abb6-3eba93d075df.png",
+            "aspect_ratio": "4/3",
+            "desktop_width_percent": 50,
+            "border_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_dcd8ded_hgePME"
+      ],
+      "settings": {}
+    },
+    "featured_product_yReECL": {
+      "type": "featured-product",
+      "blocks": {
+        "text_CPVjqy": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_hAxrzC": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_3MihTj": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_4dVPD9": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "custom_liquid_aVHEhn": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div\n  class=\"appstle-subscription-widget\"\n  data-product-id=\"{{ section.settings.product.id }}\"\n  data-product-handle=\"{{ section.settings.product.handle }}\"\n>\n  <span\n    class=\"appstle_stand_alone_selector\"\n    data-product-data=\"{{ section.settings.product | json | escape }}\"\n    style=\"display:none;\"\n  ></span>\n</div>\n\n<script>\n  (function() {\n    function reinitAppstle() {\n      if (window.Appstle && typeof window.Appstle.init === 'function') {\n        window.Appstle.init();\n      } else if (window.__appstleSellingPlanData) {\n        document.dispatchEvent(new CustomEvent('appstle:reinit'));\n      }\n    }\n\n    // Variant change হলে Appstle কে notify করো\n    document.addEventListener('variant:change', function(e) {\n      reinitAppstle();\n    });\n\n    // Section load হলে init করো\n    document.addEventListener('DOMContentLoaded', function() {\n      setTimeout(reinitAppstle, 500);\n    });\n\n    reinitAppstle();\n  })();\n</script>"
+          }
+        },
+        "quantity_selector_pinajp": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_zTrLDR": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "text_HnNX6A": {
+          "type": "text",
+          "settings": {
+            "text": "<em><strong>Explore our subscription plans on the product details page to find the perfect option for you.</strong></em>",
+            "text_style": "body"
+          }
+        },
+        "share_A7JVbk": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_CPVjqy",
+        "title_hAxrzC",
+        "price_3MihTj",
+        "variant_picker_4dVPD9",
+        "custom_liquid_aVHEhn",
+        "quantity_selector_pinajp",
+        "buy_buttons_zTrLDR",
+        "text_HnNX6A",
+        "share_A7JVbk"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "pips-july-post",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "whats_inside_section_x7YtUy": {
+      "type": "whats-inside-section",
+      "blocks": {
+        "feature_item_cwzYYm": {
+          "type": "feature_item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Jun_16_2026_11_10_50_AM.png",
+            "title": "Story Letter",
+            "description": "A beautifully illustrated story full of adventures from Willowbrook Meadow."
+          }
+        },
+        "feature_item_pW4NqV": {
+          "type": "feature_item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Jun_16_2026_11_12_23_AM.png",
+            "title": "Surprise Treasure",
+            "description": "A carefully chosen keepsake or sticker set to collect and enjoy each month."
+          }
+        },
+        "feature_item_4CzwaL": {
+          "type": "feature_item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Jun_16_2026_11_14_52_AM.png",
+            "title": "Character Updates",
+            "description": "News, notes, and special letters from Pip and the residents."
+          }
+        }
+      },
+      "block_order": [
+        "feature_item_cwzYYm",
+        "feature_item_pW4NqV",
+        "feature_item_4CzwaL"
+      ],
+      "name": "What's Inside",
+      "settings": {
+        "max_width": 1200,
+        "padding_vertical": 76,
+        "padding_horizontal": 80,
+        "padding_vertical_mobile": 32,
+        "padding_horizontal_mobile": 20,
+        "bg_color": "#f6ead1",
+        "bg_image_desktop": "shopify://shop_images/ChatGPT_Image_Jun_16_2026_11_01_45_AM.png",
+        "bg_image_size": "cover",
+        "bg_image_position": "center center",
+        "bg_image_repeat": "no-repeat",
+        "title": "What's Inside Pip's Post?",
+        "title_font_size": 28,
+        "title_font_size_mobile": 20,
+        "title_color": "#2c1f10",
+        "title_font_weight": "600",
+        "title_mb": 32,
+        "title_icon_before": "shopify://shop_images/ChatGPT_Image_Jun_16_2026_11_25_47_AM.png",
+        "title_icon_after": "shopify://shop_images/ChatGPT_Image_Jun_16_2026_11_25_47_AMr.png",
+        "title_icon_width": 60,
+        "title_icon_width_mobile": 30,
+        "title_icon_gap": 10,
+        "block_gap": 24,
+        "block_gap_mobile": 24,
+        "block_inner_gap": 14,
+        "show_dividers": true,
+        "divider_color": "#c9bfa8",
+        "block_img_width": 96,
+        "block_img_height": 96,
+        "block_img_width_mobile": 72,
+        "block_img_height_mobile": 72,
+        "block_title_font_size": 16,
+        "block_title_font_size_mobile": 15,
+        "block_title_color": "#2c1f10",
+        "block_title_font_weight": "700",
+        "block_title_mb": 6,
+        "block_desc_font_size": 13,
+        "block_desc_font_size_mobile": 13,
+        "block_desc_color": "#5a4a38",
+        "block_desc_font_weight": "400",
+        "block_desc_max_width": 200
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "image_banner_6BtiLi",
+    "17811863848964bbbf",
+    "featured_product_yReECL",
+    "whats_inside_section_x7YtUy"
+  ]
+}
